@@ -1,4 +1,4 @@
-// src/components/nav/navbar.js
+
 
 import React from 'react';
 import { Link } from 'react-router-dom'
@@ -16,7 +16,6 @@ class NavBar extends React.Component {
     this.props.logout();
   }
 
-  // Selectively render links dependent on whether the user is logged in
   getLinks() {
     if (this.props.loggedIn) {
       return (
